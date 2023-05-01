@@ -1,0 +1,31 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.container {
+    background-color: #ffdfe0;
+    text-align: center;
+    height: 60vh;
+    padding: 30px;
+    color: rgb(107, 106, 106);
+    line-height: 2;
+    letter-spacing: 1.2px;
+    word-spacing: 2px;
+}
+.tryAgain {
+    background-color: #E96479;
+    color: white;
+    line-height: 2;
+    font-size: 1.2rem;
+    letter-spacing: 1.2px;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    width: 200px;
+    margin: 20px;
+}
+.tryAgain:hover {
+    cursor: pointer;
+    background-color: #fca0a0;
+}
